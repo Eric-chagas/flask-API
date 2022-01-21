@@ -10,23 +10,27 @@ Simple flask repo to develop API related stuff
 
 ## To Run
 
+### Install virtualenv
+
+Inside the project's directory run:
+
+```
+pip3 install virtualenv
+```
+
 ### Install virtual environment locally
 
 Inside the project's directory run:
 
 ```
-python3 -m venv venv
+virtualenv {name-for-virtualenvironment} --python={your-python-version}
 ```
 
 ### Activate virtual environment (linux)
 
-First we make the activation script executable, run:
+Activate it:
 ```
-chmod +x venv/bin/activate
-```
-Then activate it:
-```
-. venv/bin/activate
+source venv/bin/activate
 ```
 
 ### Install Requirements
