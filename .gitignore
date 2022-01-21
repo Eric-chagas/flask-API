@@ -1,1 +1,4 @@
 venv/
+requirements-versions.txt
+.vscode
+__pycache__
