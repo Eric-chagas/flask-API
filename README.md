@@ -1,4 +1,4 @@
-# Flask Repo
+# Flask API
 
 Simple flask repo to develop API related stuff
 
