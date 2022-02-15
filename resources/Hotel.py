@@ -31,3 +31,9 @@ HotelList = [
 class Hotels(Resource):
     def get(self):
         return {'hotels': HotelList}
+    
+    def getHotels(self):
+        return {'hotels': HotelList}
+    
+    def getHotelById(self):
+        return {'hotels'}
