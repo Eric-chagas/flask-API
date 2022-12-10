@@ -44,5 +44,5 @@ And finally...
 ### Run app
 
 ```
-python3 main.py
+python3 app.py
 ```

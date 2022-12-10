@@ -13,6 +13,11 @@ api = Api(app)
 def home():
     return render_template('pages/home.html')
 
+@app.route('/hotels')
+def hotels():
+    hotels = Hotels()
+    return Hotels.getHotels(hotels)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

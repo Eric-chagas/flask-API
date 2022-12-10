@@ -2,3 +2,4 @@ venv/
 requirements-versions.txt
 .vscode
 __pycache__
+properties-dev.ini
